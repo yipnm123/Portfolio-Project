@@ -1,0 +1,74 @@
+img.img-fluid {
+	padding: 15px 0px;
+}
+#Gallery {
+	margin: auto;
+}
+.jumbotron {
+/*	Photo by Markus Spiske on Unsplash
+	https://images.unsplash.com/photo-1515524738708-327f6b0037a7?ixlib=rb-0.3.5&s=cb89fbf71ae49b0a22e3e35e6d856a17&auto=format&fit=crop&w=1950&q=80
+	found 5/13/18*/
+	background-image: url("markus-spiske-507983-unsplash.jpg");
+	background-size: cover;
+	height: 100%;
+	min-height: 300px;
+	margin: 0;
+	border-radius: 0;
+}
+body {
+	margin-top: 82px;
+	font-family: 'Poppins', sans-serif;
+	background-color: #efe9f4;
+}
+.bg-light {
+	background-color: #5fbff9!important;
+}
+#About {
+	background-color: #16bac5;
+}
+img.image {
+	width: 50px;
+	border-radius: 10px;
+	float: left;
+	padding: none;
+}
+#Portfolio, #About, #Contact {
+	padding: 82px 0px;
+	text-align: center;
+}
+#Profile, #Navigation {
+	display: inline;
+}
+.name, a.nav-link {
+	color: #171d1c;
+}
+@media screen and (min-width: 1150px) {
+	#About {
+		padding-left: 315px;
+		padding-right: 315px;
+		margin: auto;	
+	}
+}
+@media screen and (min-width: 1440px) {
+	div.container-fluid, div.jumbotron {
+		width: 1440px;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 610px) {
+/*	.navbar-brand {
+		width: 20%;
+	}*/
+	.name {
+		font-size: 2em;
+		display: block;
+	}
+	#Navigation, #Profile {
+		margin: auto;
+		display: block;
+	}
+	#Portfolio, #About, #Contact {
+	padding: 122px 0px;
+	}
+}
