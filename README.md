@@ -1,24 +1,24 @@
-#Judi Portwood Portfolio Page
+# Judi Portwood Portfolio Page
 
 This is a simple portfolio made with Bootstrap 4.0 to respond to the demands of responsive web design.
----
 
-##Technology
+
+## Technology
 
 This site uses the open source Bootstrap 4.0 framework. It provides already established classes to use for responsive CSS as well as built in Javascript functionality.
----
 
-##Author
+
+## Author
 
 Judi Portwood - yipnm123 on Github
----
 
-##Future Revisions
+
+## Future Revisions
 
 Future code revisions hope to reduce the reliance on `div` elements. It might be possible that this site will be rewritten using flexbox, CSS Grid, or another framework at a later date.
----
 
-##Acknowledgements
+
+## Acknowledgements
 
 This was designed to fufill the project requirements for Udacity's Portfolio Project in their Front-End Nanodegree Program. Many thanks to the resources and curriculum made available by Udacity.
 
